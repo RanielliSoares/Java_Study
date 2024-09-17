@@ -35,10 +35,13 @@ public class Main {
         switch (opcaoSelecionada) {
             case 1:
                 ConsultarSaldo();
+                break;
             case 2:
                 DepositarValor();
+                break;
             case 3:
                 RetirarValor();
+                break;
             case 4:
                 System.out.println("Você escolheu sair, obrigado");
                 break;
